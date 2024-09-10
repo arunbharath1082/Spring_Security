@@ -12,6 +12,7 @@ import org.springframework.stereotype.Repository;
 @Data
 @Entity(name = "User")
 @AllArgsConstructor
+
 @NoArgsConstructor
 public class User {
     @Id
